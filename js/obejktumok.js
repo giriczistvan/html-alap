@@ -30,7 +30,7 @@ var matyi = {
 		console.log('Oáááá');
 	}
 };
-
+Object.keys(objneve); Object.values(objneve); Object.defineProperties(objneve)[index_number]
 //Objektum adattagjainak elérése
 matyi.kor;		//1.5
 matyi['nev'];		//"Mátyás"
