@@ -1,3 +1,11 @@
+//arrow function
+let adder = function (n1,n2) {
+	let varia=n1+n2;
+	return varia%2;
+}
+//ha csak egy paraméter van és egy sor a művelet minden zárójel elhagyható
+let adder = (n1,n1)=> {n1 + n2}; let adder = n1 => return "hello"+n1;
+
 // T egy olyan függvény, amely a tételben általánosan jelenik meg, és a konkrét feladattól függően fejthető ki. Az előző részben leírt lineáris keresés például így írható át:
 
 function kereses(x, T) {

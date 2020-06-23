@@ -22,7 +22,9 @@ A JavaScript objektumok tehát tulajdonságok és metódusok gyűjteménye, és 
 
 A metódusokat egyszerűen úgy adjuk meg, hogy az érték helyére egy függvényliterált írunk. A metódus meghívása az objektum megfelelő kulcsán keresztül megkapott függvény meghívásából áll.
 
-//Objektum létrehozása
+//Objektum létrehozása 
+let matyi = new Object; let matyi = {}
+
 var matyi = {
 	kor: 1.5,
 	nev: 'Mátyás',
@@ -30,6 +32,8 @@ var matyi = {
 		console.log('Oáááá');
 	}
 };
+matyi.kor; magyi["kor"]; Ugyanaz de ha változót kap akkor az utolsót kell hazsnálni
+
 Object.keys(objneve); Object.values(objneve); Object.defineProperties(objneve)[index_number]
 //Objektum adattagjainak elérése
 matyi.kor;		//1.5
