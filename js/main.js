@@ -16,3 +16,15 @@ for (let i = 0; i < alertCloseButtons.length; i++) {
     );
     
 }
+
+//select elem kitöltése
+let toppings =["szalonna","hagyma","golyóscsapágy","extra sonka","libamáj"];
+let toppingselect = document.querySelector("#feltét");
+let index =0;
+while (index< toppings.length) {
+    let options = document.createElement("option");
+    options.value = index;
+    options.innerHTML = toppings[index];
+    toppingselect.appendChild(options);
+    index++;
+}
