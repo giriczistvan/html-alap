@@ -1,0 +1,19 @@
+{
+  "name": "html-alap",
+  "version": "1.0.0",
+  "description": "html gyakorló ismeretek",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giriczistvan/html-alap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giriczistvan/html-alap/issues"
+  },
+  "homepage": "https://github.com/giriczistvan/html-alap#readme"
+}

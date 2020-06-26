@@ -1,0 +1,11 @@
+{
+"users": [
+    {"id":1, "name":"bit tomi","email":"hablaty@gmail.com"},
+    {"id":2, "name":"bibi zoli","email":"bibi@gmail.com"},
+    {"id":3, "name":"Kutyuska peti","email":"kutyus@gmail.com"}
+],
+
+"comment":[
+     { "id": 1, "body": "some comment", "userId": 1 }
+]
+}

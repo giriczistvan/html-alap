@@ -61,6 +61,8 @@ parent.appendChild(helpText);
 
 parent.removeChild(helpText);
 
+group.className ="btn-group"; classt lehet hozzáadni
+
 //ESEMÉNYKEZELŐK LÉTREHOZÁSA ESEMÉNYEK
 
 let sendbutton = document.querySelector("form .btn.btn-primary");
